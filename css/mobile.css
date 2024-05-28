@@ -1,0 +1,186 @@
+@media (max-width: 768px) {
+
+    /* ************************************************************** */
+    /* Adjusting HomePage */
+
+    .intro .introbox {
+        padding: 1.5em;
+    }
+
+    .intro .introbox input[type="button"] {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    /* ************************************************************** */
+    /* Adjusting About page */
+
+    article .about {
+        flex-direction: column;
+        height: auto; 
+        padding: 5%;
+    }
+
+    .about figure {
+        margin-right: 0;
+        margin-bottom: 1em; 
+        text-align: center; 
+        height: min-content; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        flex-direction: column;
+        margin-top: 10em;
+    }
+
+    .about figure img {
+        width: min-content; 
+        height: fit-content; 
+    }
+
+    .about article {
+        flex: none;
+        margin-bottom: 10em;
+    }
+
+    figcaption {
+        margin-top: 0.5em; 
+    }
+
+    /* ************************************************************** */
+    /* Adjusting Skills page */
+
+    .skills {
+        height: auto;
+        padding: 5%;
+    }
+
+    .skills h2, .experience h2 {
+        margin-top: 3em; 
+        margin-bottom: 2em;
+    }
+
+    .skills .carousel {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        align-items: center;
+        margin-bottom: 5em; 
+    }
+
+    .skills .card {
+        margin-bottom: 2em; 
+    }
+
+    .skills .card .front,
+    .skills .card .back {
+        height: auto; 
+    }
+
+    /* ************************************************************** */
+    /* Adjusting Education page */
+
+    .education {
+        height: auto; 
+        min-height: 100vh;
+        padding: 5%;
+    }
+
+    .education .carousel {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .education .card {
+        height: auto; 
+        margin-bottom: 2em; 
+    }
+
+    /* ************************************************************** */
+    /* Adjusting Experience page */
+
+    .experience {
+        height: auto; 
+        padding: 5%;
+    }
+
+    .experience .carousel {
+        display: flex;
+        margin-bottom: 2em;
+        padding: 1em;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .experience .card {
+        margin-bottom: 2em; 
+    }
+
+    /* ************************************************************** */
+    /* Adjusting Add Blog Form page */
+
+    .addBlog {
+        height: auto; 
+    }
+
+    .addBlogContainer {
+        padding: 1em; 
+    }
+
+    .addBlog aside {
+        text-align: center; 
+    }
+
+    .addBlog h2 {
+        text-align: center; 
+        font-size: 1.5rem; 
+        margin-bottom: 1em; 
+    }
+
+    #addPostForm {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    #title,
+    #content {
+        width: 100%; 
+        margin-bottom: 1em; 
+        font-size: 1rem; 
+        padding: 0.5em; 
+    }
+
+    .addBlog button {
+        width: 100%; 
+        font-size: 1rem; 
+        padding: 1em;
+        margin-top: 1em;
+    }
+
+    /* ************************************************************** */
+    /* Adjusting Login page */
+
+    .login .login-container form button {
+        width: 100%;
+    }
+
+    /* ************************************************************** */
+    /* Adjusting Blog page */
+
+    .blogHeader h1, .blogPosts h2, .blogPosts form, .blogPosts form span {
+        text-align: center;
+    }
+
+    .blogHeader h1, .blogPosts h2 {
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+
+    /* ************************************************************** */
+    /* Adjusting Reply form section */
+
+    .replyForm form input[type="submit"] {
+        width: 100%;
+    }
+}
